@@ -11,7 +11,7 @@
 #define MQ6_PIN 35
 
 // Threshold for gas detection
-#define GAS_THRESHOLD 1700
+#define GAS_THRESHOLD 1500
 
 // MQTT topic
 #define AWS_IOT_TOPIC "mykitchen/gas"
@@ -22,7 +22,7 @@ PubSubClient client(net);
 Servo windowServo;
 
 unsigned long lastPublishTime = 0;
-const unsigned long publishInterval = 10000; // Publish every 10 seconds
+const unsigned long publishInterval = 2000; // Publish every 10 seconds
 
 void connectWiFi() {
   Serial.println("Connecting to Wi-Fi...");
