@@ -355,7 +355,7 @@ function App() {
                       <Line
                         type="monotone"
                         dataKey="power"
-                        stroke={colors.lightText}
+                        stroke={colors.darkText}
                         name="Power (W)"
                         dot={false}
                       />
