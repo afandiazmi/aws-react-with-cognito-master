@@ -124,8 +124,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-Made with ❤️ by [Your Name](https://github.com/afandiazmi)
-
 # 🌟 Project Overview
 
 This dashboard integrates multiple smart home systems into a single interface, leveraging AWS services for secure and scalable communication.
