@@ -205,6 +205,29 @@ function App() {
       <Container fluid style={{ backgroundColor: colors.background }}>
         {/* Connection Status */}
 
+        <Row className="mb-4">
+          <Col className="d-flex justify-content-center">
+            <img
+              src="1.jpg"
+              alt="1"
+              className="img-fluid mx-2"
+              style={{ maxHeight: "250px" }}
+            />
+            <img
+              src="2.jpg"
+              alt="2"
+              className="img-fluid mx-2"
+              style={{ maxHeight: "250px" }}
+            />
+            <img
+              src="3.jpg"
+              alt="3"
+              className="img-fluid mx-2"
+              style={{ maxHeight: "250px" }}
+            />
+          </Col>
+        </Row>
+
         <Row className="position-absolute top-0 end-0 m-3">
           <Col>
             {connected ? (
